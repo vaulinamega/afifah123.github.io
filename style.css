@@ -1,0 +1,70 @@
+
+ 
+body {
+	background: #000000;
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+ 		
+ 
+header{
+	background: #fff;
+	text-align: center;
+	color: #1abc9c;
+	padding: 50px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+header.img{
+margin-top: 50px;
+
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-size: 14px;
+    font-family: verdana;
+
+
+}
+svg {
+    width: 50px;
+    height: 60px;
+    margin-left: 1070px;
+    position: absolute;
+    margin-top: -30px;
+}
+
+svg path {
+    fill: #000000;
+}
+ 
+.dropdown-child {
+    display: none;
+    background-color: white;
+    position: absolute;
+    margin-right: 1090px;
+}
+.dropdown-child a {
+    color: black;
+    padding: 20px 10px;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-child a svg{
+
+}
+
+.dropdown svg:hover ~.dropdown-child {
+    display: block;
+    background-color: white;
+    color: black;
+}
